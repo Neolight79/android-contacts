@@ -42,7 +42,7 @@ public class SortTypeUI implements ListDiffInterface<SortTypeUI> {
         return result;
     }
     public boolean theSameAs(SortTypeUI newItem) {
-        return this.hashCode() == newItem.hashCode();
+        return this.getSortType() == newItem.getSortType();
     }
 
 }
